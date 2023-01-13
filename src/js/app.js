@@ -8,3 +8,8 @@ window.addEventListener("DOMContentLoaded", () => {
     alert("💣");
   });
 });
+document.title = "No new messages";
+
+setTimeout(() => {
+  document.title = "One new message";
+}, 3000);
